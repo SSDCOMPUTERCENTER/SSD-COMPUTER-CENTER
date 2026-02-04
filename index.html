@@ -3,7 +3,7 @@
 <head>
     <title>SSD COMPUTER CENTER</title>
     <style>
-        body { font-family: sans-serif; text-align: center; background: #eef2f3; padding: 50px; }
+        body { font-family: sans-serif; text-align: center; background: yellow; padding: 50px; }
         .card { background: white; padding: 20px; border-radius: 15px; box-shadow: 0px 4px 10px rgba(0,0,0,0.1); display: inline-block; }
         img { border-radius: 50%; border: 5px solid orange; }
         h1 { color: #333; }
@@ -11,39 +11,194 @@
     </style>
 </head>
 <body>
+<div style="background-color: yellow; color: red; padding: 10px 0; font-family: sans-serif; font-weight: bold; border-bottom: 2px solid #ffd700;">
+    <marquee behavior="scroll" direction="left" scrollamount="8">
+        🔥 न्यू एडमिशन ओपन: ADCA, DCA, Tally Prime और CCC के नए बैच शुरू हो रहे हैं... जल्दी संपर्क करें! 📞 मोबाइल: +91 9794282773 🚀 सीमित सीटें उपलब्ध!
+    </marquee>
+</div>
 
     <div class="card">
-        <img src="myphoto.jpg" width="150" height="150" alt="यहाँ मेरी फोटो होगी">
-        
+        <img src="ssdphoto.jpeg" width="300" height="200" alt="हमारे कंप्यूटर सेंटर की फोटो" style="border-radius: 10px;">
         <h1>नमस्कार SSD Computer Center में आपका स्वागत है।</h1>
         <p>हम अपने स्टूडेंट्स की सुविधा के लिए यहाँ पर कंप्यूटर के नोट्स दे रहे हैं।</p>
         
-        <a href="https://https://www.youtube.com/@SSDCOACHINGINSTITUTE">मेरा YouTube चैनल देखें</a>
+
+      
     </div>
 
 </body>
 </html>
-<a href="कंप्यूटर का परिचय.pdf" target="_blank">PDF नोट्स देखें</a>
-<div style="background-color: white; padding: 20px; border-radius: 10px; border: 1px solid #ddd; max-width: 500px; margin: 20px auto;">
-    <h2 style="color: #2c3e50;">📚 स्टडी मटेरियल (Notes)</h2>
-    <hr>
+<a href="कंप्यूटर का परिचय.pdf" target="_blank"> </a>
+<div style="background-color: #fff3e0; padding: 20px; border-radius: 10px; border: 2px dashed #e67e22; text-align: center;">
+    <h2>📚 प्रीमियम स्टडी मटेरियल (CCC Full Notes, ADCA-MS Word,Excel,Power Point, Tally Prime, )</h2>
+    <p>ये नोट्स सिर्फ हमारे सेंटर के छात्रों के लिए हैं।</p>
     
-    <div style="margin: 15px 0;">
-        <strong>1. कंप्यूटर फंडामेंटल्स:</strong> 
-        <a href="कंप्यूटर का परिचय.pdf" target="_blank" style="color: red; text-decoration: none; font-weight: bold;"> [PDF देखें]</a>
+    <button onclick="checkPassword()" style="background-color: #e67e22; color: white; padding: 12px 25px; border: none; border-radius: 5px; cursor: pointer; font-size: 16px; font-weight: bold;">
+        नोट्स अनलॉक करें 🔓
+    </button>
+
+    <div id="notesSection" style="display: none; margin-top: 20px; text-align: left;">
+    <hr>
+    <h3 style="color: #2c3e50;">📚 Course-wise Lessons:</h3>
+
+    <div style="margin-bottom: 20px;">
+        <h4 style="background: #e67e22; color: white; padding: 8px; border-radius: 5px;">1. Computer Fundamentals</h4>
+        <ul style="list-style-type: none; padding-left: 20px;">
+            <li style="margin: 10px 0;">
+                📖 <strong>Lesson 1:</strong> Introduction to Computer 
+                <a href="lesson1.pdf" style="color: #007bff; text-decoration: none; margin-left: 10px;">[Download PDF]</a>
+            </li>
+            <li style="margin: 10px 0;">
+                📖 <strong>Lesson 2:</strong> Input & Output Devices 
+                <a href="lesson2.pdf" style="color: #007bff; text-decoration: none; margin-left: 10px;">[Download PDF]</a>
+            </li>
+            <li style="margin: 10px 0;">
+                📖 <strong>Lesson 3:</strong> Memory Units 
+                <a href="lesson3.pdf" style="color: #007bff; text-decoration: none; margin-left: 10px;">[Download PDF]</a>
+            </li>
+        </ul>
     </div>
 
-    <div style="margin: 15px 0;">
-        <strong>2. ऑपरेटिंग सिस्टम का परिचय:</strong> 
-        <a href="ऑपरेटिंग सिस्टम का परिचय.pdf" target="_blank" style="color: red; text-decoration: none; font-weight: bold;"> [PDF देखें]</a>
+    <div style="margin-bottom: 20px;">
+        <h4 style="background: #3498db; color: white; padding: 8px; border-radius: 5px;">2. Tally Prime</h4>
+        <ul style="list-style-type: none; padding-left: 20px;">
+            <li style="margin: 10px 0;">
+                📖 <strong>Lesson 1:</strong> Basics of Accounting 
+                <a href="tally1.pdf" style="color: #007bff; text-decoration: none; margin-left: 10px;">[Download PDF]</a>
+            </li>
+            <li style="margin: 10px 0;">
+                📖 <strong>Lesson 2:</strong> Company Creation 
+                <a href="tally2.pdf" style="color: #007bff; text-decoration: none; margin-left: 10px;">[Download PDF]</a>
+            </li>
+        </ul>
+    </div>
+</div>    </div>
+</div>
+
+<script>
+function checkPassword() {
+    var password = prompt("enter password:");
+    
+    // यहाँ अपना पासवर्ड बदलें (अभी 'SSD123' रखा है)
+    if (password == "SSD123") {
+        alert("पासवर्ड सही है! अब आप नोट्स देख सकते हैं।");
+        document.getElementById("notesSection").style.display = "block";
+    } else {
+        alert("गलत पासवर्ड! कृपया अपने सर से संपर्क करें।");
+    }
+}
+</script>
+    
+
+    </div>
+<div style="background-color: #f9f9f9; padding: 20px; border-top: 2px solid orange; margin-top: 30px;">
+    <h3>📍 हमारा पता (Our Address)</h3>
+    <p><strong> SSD Computer Center </strong></p>
+    <p> (Pravesh Telecom) </p>
+    <p> AgampurTiraha, Shahabad </p>
+    <p> Hardoi, Uttar Pradesh - 241124 </p>
+    <p>📞 संपर्क करें: +91  9794282773 </p>
+<div style="background-color: white; padding: 30px; border-radius: 15px; box-shadow: 0px 4px 15px rgba(0,0,0,0.1); max-width: 600px; margin: 30px auto; text-align: left; font-family: sans-serif;">
+    <h2 style="color: #2c3e50; text-align: center;">📞 हमसे संपर्क करें (Contact Us)</h2>
+    <hr style="border: 0; border-top: 1px solid #eee; margin-bottom: 20px;">
+
+    <div style="text-align: center; margin-bottom: 25px;">
+        <a href="https://wa.me/9794282773" target="_blank" style="background-color: #25D366; color: white; padding: 12px 20px; text-decoration: none; border-radius: 5px; font-weight: bold; display: inline-block; margin: 5px;">
+            WhatsApp पर मैसेज करें
+        </a>
+        <a href="mailto:ssdcomputercenter@gmail.com" style="background-color: #007bff; color: white; padding: 12px 20px; text-decoration: none; border-radius: 5px; font-weight: bold; display: inline-block; margin: 5px;">
+            ईमेल भेजें
+        </a>
     </div>
 
-    <div style="margin: 15px 0;">
-        <strong>3.इंटरनेट और WWW का परिचय:</strong> 
-        <a href="इंटरनेट और WWW का परिचय.pdf" target="_blank" style="color: red; text-decoration: none; font-weight: bold;"> [PDF देखें]</a>
+<div style="background-color: #f1f4f8; padding: 40px 20px; text-align: center; font-family: sans-serif;">
+    <h2 style="color: #333; margin-bottom: 30px;">🌟 हमारे छात्र क्या कहते हैं (Student Reviews)</h2>
+    
+    <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px;">
+        
+        <div style="background: white; padding: 20px; border-radius: 10px; width: 280px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); border-top: 5px solid #e67e22;">
+            <p style="font-style: italic; color: #555;">"यहाँ ADCA कोर्स बहुत ही सरल भाषा में सिखाया जाता है। सर का समझाने का तरीका बहुत अच्छा है।"</p>
+            <h4 style="margin: 10px 0 0; color: #333;">- SHAILJA</h4>
+            <small style="color: #e67e22;">⭐⭐⭐⭐⭐</small>
+        </div>
+
+        <div style="background: white; padding: 20px; border-radius: 10px; width: 280px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); border-top: 5px solid #3498db;">
+            <p style="font-style: italic; color: #555;">"मैने यहाँ से Tally सीखा और आज मैं एक कंपनी में अकाउंटेंट हूँ। बहुत-बहुत धन्यवाद सर!"</p>
+            <h4 style="margin: 10px 0 0; color: #333;">- ADESH KUMAR</h4>
+            <small style="color: #3498db;">⭐⭐⭐⭐⭐</small>
+        </div>
+
+        <div style="background: white; padding: 20px; border-radius: 10px; width: 280px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); border-top: 5px solid #2ecc71;">
+            <p style="font-style: italic; color: #555;">"बेस्ट कंप्यूटर सेंटर! यहाँ प्रैक्टिकल क्लास पर बहुत ज्यादा ध्यान दिया जाता है।"</p>
+            <h4 style="margin: 10px 0 0; color: #333;">- अभिषेक सिंह</h4>
+            <small style="color: #2ecc71;">⭐⭐⭐⭐⭐</small>
+        </div>
+
     </div>
 </div>
-<div style="margin: 15px 0;">
-        <strong>3.ई-मेल, सोशल नेटवर्किंग और ई-गवर्नेंस सेवाएँ:</strong> 
-        <a href="ई-मेल, सोशल नेटवर्किंग और ई-गवर्नेंस सेवाएँ.pdf" target="_blank" style="color: red; text-decoration: none; font-weight: bold;"> [PDF देखें]</a>
+
+    <div style="background-color: white; padding: 30px; border-radius: 15px; box-shadow: 0px 4px 15px rgba(0,0,0,0.1); max-width: 600px; margin: 30px auto; text-align: left; font-family: sans-serif;">
+    <h2 style="color: #2c3e50; text-align: center;">📩 एडमिशन के लिए संपर्क करें</h2>
+    
+    <form action="https://formspree.io/f/ssdcomputercenter@gmail.com" method="POST">
+        
+        <label style="display: block; margin-bottom: 5px; font-weight: bold;">आपका पूरा नाम:</label>
+        <input type="text" name="Name" required placeholder="जैसे: अमित कुमार" style="width: 100%; padding: 10px; margin-bottom: 15px; border: 1px solid #ccc; border-radius: 5px; box-sizing: border-box;">
+
+        <label style="display: block; margin-bottom: 5px; font-weight: bold;">मोबाइल नंबर:</label>
+        <input type="tel" name="Mobile" required placeholder="अपना 10 अंकों का नंबर" style="width: 100%; padding: 10px; margin-bottom: 15px; border: 1px solid #ccc; border-radius: 5px; box-sizing: border-box;">
+
+        <label style="display: block; margin-bottom: 5px; font-weight: bold;">कोर्स चुनें:</label>
+        <select name="Course" style="width: 100%; padding: 10px; margin-bottom: 15px; border: 1px solid #ccc; border-radius: 5px;">
+            <option>ADCA</option>
+            <option>DCA</option>
+            <option>Tally Prime</option>
+            <option>CCC / Basic</option>
+        </select>
+
+        <label style="display: block; margin-bottom: 5px; font-weight: bold;">आपका संदेश:</label>
+        <textarea name="Message" rows="3" placeholder="कुछ पूछना चाहते हैं?" style="width: 100%; padding: 10px; margin-bottom: 15px; border: 1px solid #ccc; border-radius: 5px; box-sizing: border-box;"></textarea>
+
+        <button type="submit" style="width: 100%; background-color: #e67e22; color: white; padding: 12px; border: none; border-radius: 5px; cursor: pointer; font-size: 16px; font-weight: bold;">
+            जानकारी भेजें (Submit)
+        </button>
+    </form>
+</div>
+
+
+	<footer style="background-color: #2c3e50; color: white; padding: 40px 20px; text-align: center; font-family: sans-serif; margin-top: 50px;">
+    
+    <div style="max-width: 1000px; margin: auto; display: flex; flex-wrap: wrap; justify-content: space-around; text-align: left;">
+        
+        <div style="width: 250px; margin-bottom: 20px;">
+            <h3 style="color: #e67e22;">हमारे बारे में</h3>
+            <p style="font-size: 14px; line-height: 1.6;">हमारा कंप्यूटर सेंटर पिछले कई वर्षों से छात्रों को तकनीकी शिक्षा देकर उनके भविष्य को उज्जवल बना रहा है।</p>
+        </div>
+
+        <div style="width: 200px; margin-bottom: 20px;">
+            <h3 style="color: #e67e22;">महत्वपूर्ण लिंक</h3>
+            <ul style="list-style: none; padding: 0; font-size: 14px; line-height: 2;">
+                <li><a href="#" style="color: white; text-decoration: none;">होम पेज</a></li>
+                <li><a href="#courses" style="color: white; text-decoration: none;">कोर्सेस</a></li>
+                <li><a href="#notes" style="color: white; text-decoration: none;">फ्री नोट्स</a></li>
+            </ul>
+        </div>
+
+        <div style="width: 200px; margin-bottom: 20px;">
+            <h3 style="color: #e67e22;">जुड़ें हमारे साथ</h3>
+            <p style="font-size: 14px;">
+                <a href="https://facebook.com/आपका-पेज" target="_blank" style="color: white; text-decoration: none; display: block; margin-bottom: 10px;">🔵 Facebook</a>
+                <a href="https://youtube.com/आपका-चैनल" target="_blank" style="color: white; text-decoration: none; display: block; margin-bottom: 10px;">🔴 YouTube</a>
+                <a href="https://instagram.com/आपका-आईडी" target="_blank" style="color: white; text-decoration: none; display: block;">🟣 Instagram</a>
+            </p>
+        </div>
+
     </div>
+
+    <hr style="border: 0; border-top: 1px solid #555; margin: 20px 0;">
+    
+    <p style="font-size: 13px; color: #bbb;">
+        © 2026 [SSD Computer Center]. सभी अधिकार सुरक्षित। <br>
+        Designed with ❤️ for Students
+    </p>
+</footer>
